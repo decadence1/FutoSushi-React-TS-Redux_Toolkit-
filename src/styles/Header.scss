@@ -37,19 +37,19 @@
 
   .search-input {
     width: 400px;
-    padding: 10px; /* Увеличим отступы внутри поля */
+    padding: 10px;
     border: 1px solid #ced4da;
-    border-radius: 20px; /* Увеличим радиус скругления углов */
+    border-radius: 20px;
     margin-right: 10px;
-    font-size: 16px; /* Увеличим размер шрифта */
-    font-family: "Montserrat", sans-serif; /* Применим шрифт DM Sans */
-    background-color: #f8f9fa; /* Добавим фоновый цвет */
-    color: #495057; /* Цвет текста */
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
     outline: none;
 
     &:focus {
       border-color: #007bff;
-      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Добавим эффект при фокусе */
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
     }
   }
 
@@ -68,7 +68,7 @@
     }
 
     i {
-      margin-right: 5px; /* Добавим небольшой отступ между иконкой и текстом */
+      margin-right: 5px;
     }
   }
 
@@ -99,31 +99,30 @@
 
 @media screen and (max-width: 768px) {
   .search-input {
-    display: none; /* Прячем поле поиска на мобильных устройствах */
+    display: none;
   }
 
   .additional-buttons {
-    flex-direction: column; /* Меняем направление элементов на вертикальное */
+    flex-direction: column;
   }
 
   .login-button,
   .cart-button {
-    margin-bottom: 10px; /* Добавляем отступ между кнопками */
+    margin-bottom: 10px;
   }
 }
 
 /* Медиа-запрос для планшетов (ширина меньше 1024px) */
 @media screen and (max-width: 1024px) {
-  /* Добавьте стили для планшетов */
 }
 
 /* Медиа-запрос для десктопов (ширина больше 1024px) */
 @media screen and (min-width: 1025px) {
   .search-input {
-    display: block; /* Возвращаем поле поиска на десктопах */
+    display: block;
   }
 
   .additional-buttons {
-    flex-direction: row; /* Возвращаем направление элементов на горизонтальное */
+    flex-direction: row;
   }
 }

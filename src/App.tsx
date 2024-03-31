@@ -18,10 +18,9 @@ const App: React.FC = () => {
   return (
     <Provider store={store}>
       <div>
-        <Sidebar /> {/* Переместили сюда */}
+        <Sidebar />
         <div className="app">
           <Header />
-          {/* <Cart /> */}
           <div id="rolls">
             <RollSection />
           </div>

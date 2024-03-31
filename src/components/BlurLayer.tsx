@@ -5,7 +5,7 @@
 
 // const BlurLayer: React.FC<{ show: boolean }> = ({ show }) => {
 //   useEffect(() => {
-//     console.log("Blur layer show:", show); // Добавляем вывод в консоль
+//     console.log("Blur layer show:", show);
 //   }, [show]);
 
 //   return show ? <div className="blur-layer"></div> : null;

@@ -11,7 +11,7 @@ const Cart: React.FC = () => {
   const cartTotal = useSelector((state: RootState) => state.cart.total);
 
   const handleCloseCart = () => {
-    dispatch(toggleCart()); // При закрытии корзины диспатчим экшен toggleCart
+    dispatch(toggleCart());
   };
 
   return (
@@ -23,14 +23,12 @@ const Cart: React.FC = () => {
         </button>
       </div>
       <div className="cart-items">
-        {/* Отображаем список товаров в корзине */}
         {cartItems.map((item, index) => (
-          <div key={index}>{/* Отображаем информацию о товаре */}</div>
+          <div key={index}></div>
         ))}
       </div>
       <div className="cart-summary">
         <h3>Итого: {cartTotal}</h3>
-        {/* Отображаем общую сумму заказа */}
       </div>
       <button className="checkout-button">Оформить заказ</button>
     </div>

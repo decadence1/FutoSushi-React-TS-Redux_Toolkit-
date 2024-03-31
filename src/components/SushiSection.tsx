@@ -67,7 +67,6 @@ const SushiSection: React.FC = () => {
       ingredients: "рис, нори, чукка.",
       price: 190,
     },
-    // Добавьте другие роллы по аналогии
   ];
 
   return (

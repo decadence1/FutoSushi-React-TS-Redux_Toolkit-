@@ -3,7 +3,6 @@ import cartReducer from "./Cart/cartSlice";
 
 const rootReducer = combineReducers({
   cart: cartReducer,
-  // Другие редьюсеры, если они будут
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

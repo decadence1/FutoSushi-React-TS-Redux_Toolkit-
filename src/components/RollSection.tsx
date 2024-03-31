@@ -72,13 +72,11 @@ const RollSection: React.FC = () => {
         "тигровая креветка, лосось, рис, нори, сливочный сыр, огурец, икра «масаго».",
       price: 550,
     },
-    // Добавьте другие роллы по аналогии
   ];
 
   return (
     <div id="rolls" className="roll-section">
       {" "}
-      {/* Добавлен якорь */}
       <h2 className="section-title">Роллы</h2>
       <div className="roll-category">
         {rolls.map((roll) => (
@@ -97,5 +95,4 @@ const RollSection: React.FC = () => {
   );
 };
 
-// export default RollSection;
 export default RollSection;

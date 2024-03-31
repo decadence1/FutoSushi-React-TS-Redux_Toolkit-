@@ -22,14 +22,11 @@ const Header: React.FC = () => {
       <div className="additional-buttons">
         <button className="login-button">
           <i className="fas fa-sign-in-alt fa-lg"></i>{" "}
-          {/* Увеличиваем размер иконки */}
         </button>
         <button className="cart-button" onClick={handleCartToggle}>
           <i className="fas fa-shopping-cart fa-lg"></i>{" "}
-          {/* Увеличиваем размер иконки */}
         </button>
         {isCartOpen && <Cart />}{" "}
-        {/* Показываем корзину, если isCartOpen === true */}
       </div>
     </header>
   );

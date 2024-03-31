@@ -26,11 +26,11 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ products }) => {
         const nextSlide =
           currentSlide === products.length - 1 ? 0 : currentSlide + 1;
         setCurrentSlide(nextSlide);
-        sliderRef.current.slickGoTo(nextSlide); // Переключение к следующему слайду
+        sliderRef.current.slickGoTo(nextSlide);
       }
-    }, 5000); // Изменение слайда каждые 5 секунд
+    }, 5000);
 
-    return () => clearInterval(interval); // Очищаем интервал при размонтировании компонента
+    return () => clearInterval(interval);
   }, [currentSlide, products.length]);
 
   const settings = {
@@ -39,7 +39,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ products }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    initialSlide: currentSlide, // Устанавливаем начальный слайд
+    initialSlide: currentSlide,
   };
 
   return (
