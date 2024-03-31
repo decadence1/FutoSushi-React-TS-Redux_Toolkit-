@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #4b4b4b;
+  padding: 20px;
+  margin-top: 50px;
+
+  .footer-text {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #333333;
+
+    .footer-link {
+      color: #007bff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

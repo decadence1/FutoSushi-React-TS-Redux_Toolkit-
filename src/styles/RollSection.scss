@@ -1,0 +1,82 @@
+.roll-section {
+  margin-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Montserrat", sans-serif; /* Используем шрифт Montserrat */
+  @media screen and (min-width: 769px) and (max-width: 945px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.roll-category {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  @media screen and (min-width: 769px) and (max-width: 945px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.roll-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.roll-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.roll-details {
+  margin-top: 10px;
+}
+
+.roll-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.roll-ingredients {
+  margin-bottom: 5px;
+}
+
+.roll-price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.add-to-cart {
+  background-color: #636363;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}

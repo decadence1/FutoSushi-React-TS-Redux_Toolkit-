@@ -1,0 +1,76 @@
+// Variables
+$primary-color: #333;
+$secondary-color: #fff;
+$accent-color: #ccc;
+
+// Base styles
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+.footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 10px;
+}
+
+.navigation {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+
+      a {
+        color: $secondary-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.product-list {
+  margin: 20px 0;
+}
+
+.product-item {
+  border: 1px solid $accent-color;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.shopping-cart-page {
+  margin: 20px auto;
+  max-width: 600px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .cart-item {
+    border: 1px solid $accent-color;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}

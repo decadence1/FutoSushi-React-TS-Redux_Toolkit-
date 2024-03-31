@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.header {
+  background-color: #4b4b4b;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  .navbar-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 24px;
+    margin-right: 10px;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  .search-input {
+    width: 400px;
+    padding: 10px; /* Увеличим отступы внутри поля */
+    border: 1px solid #ced4da;
+    border-radius: 20px; /* Увеличим радиус скругления углов */
+    margin-right: 10px;
+    font-size: 16px; /* Увеличим размер шрифта */
+    font-family: "Montserrat", sans-serif; /* Применим шрифт DM Sans */
+    background-color: #f8f9fa; /* Добавим фоновый цвет */
+    color: #495057; /* Цвет текста */
+    outline: none;
+
+    &:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Добавим эффект при фокусе */
+    }
+  }
+
+  .login-button,
+  .cart-button {
+    background-color: #ffffff;
+    color: #ff0000;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+
+    i {
+      margin-right: 5px; /* Добавим небольшой отступ между иконкой и текстом */
+    }
+  }
+
+  .additional-buttons {
+    display: flex;
+    align-items: center;
+
+    button {
+      background-color: #4b4b4b;
+      color: #ffffff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+
+      &:hover {
+        background-color: #646464;
+      }
+    }
+  }
+
+  .logoimg {
+    max-width: 30%;
+    max-height: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-input {
+    display: none; /* Прячем поле поиска на мобильных устройствах */
+  }
+
+  .additional-buttons {
+    flex-direction: column; /* Меняем направление элементов на вертикальное */
+  }
+
+  .login-button,
+  .cart-button {
+    margin-bottom: 10px; /* Добавляем отступ между кнопками */
+  }
+}
+
+/* Медиа-запрос для планшетов (ширина меньше 1024px) */
+@media screen and (max-width: 1024px) {
+  /* Добавьте стили для планшетов */
+}
+
+/* Медиа-запрос для десктопов (ширина больше 1024px) */
+@media screen and (min-width: 1025px) {
+  .search-input {
+    display: block; /* Возвращаем поле поиска на десктопах */
+  }
+
+  .additional-buttons {
+    flex-direction: row; /* Возвращаем направление элементов на горизонтальное */
+  }
+}
