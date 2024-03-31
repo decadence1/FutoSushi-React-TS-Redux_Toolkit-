@@ -1,3 +1,5 @@
+Проект дорабатывается. Хочу написать небольшой сервер на NodeJS, чтобы с бэка брать всю информацию для корзины и тд. + стили доработать хочу
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
