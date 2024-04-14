@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="contact-info">
         <h3>Contact Us</h3>
-        <p>Email: info@myfurniturestore.com</p>
+        <p>Email: info@futosushi.com</p>
         <p>Phone: 123-456-7890</p>
       </div>
       <div className="social-links">
