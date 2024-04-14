@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FutoSushi-React-TS-Redux_Toolkit-/static/css/main.fe05e6ec.css",
+    "main.js": "/FutoSushi-React-TS-Redux_Toolkit-/static/js/main.bc73b304.js",
+    "static/media/slick.svg": "/FutoSushi-React-TS-Redux_Toolkit-/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/FutoSushi-React-TS-Redux_Toolkit-/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/FutoSushi-React-TS-Redux_Toolkit-/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/FutoSushi-React-TS-Redux_Toolkit-/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/FutoSushi-React-TS-Redux_Toolkit-/index.html",
+    "main.fe05e6ec.css.map": "/FutoSushi-React-TS-Redux_Toolkit-/static/css/main.fe05e6ec.css.map",
+    "main.bc73b304.js.map": "/FutoSushi-React-TS-Redux_Toolkit-/static/js/main.bc73b304.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe05e6ec.css",
+    "static/js/main.bc73b304.js"
+  ]
+}
